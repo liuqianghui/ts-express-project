@@ -1,0 +1,37 @@
+{
+  "name": "ts-express-project",
+  "version": "1.0.0",
+  "description": "express and ts set up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "node .",
+    "dev": "npm run tsc && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuqianghui/ts-express-project.git"
+  },
+  "keywords": [
+    "express",
+    "ts",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "liuqh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuqianghui/ts-express-project/issues"
+  },
+  "homepage": "https://github.com/liuqianghui/ts-express-project#readme",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0"
+  }
+}
