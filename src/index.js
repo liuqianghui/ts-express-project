@@ -9,7 +9,7 @@ dotenv_1.default.config();
 var port = process.env.SERVER_PORT;
 var app = express_1.default();
 app.get("/", function (req, res) {
-    res.send("");
+    res.send("hello world");
 });
 app.listen(port, function () {
     console.log("server started at http://localhost:" + port);
